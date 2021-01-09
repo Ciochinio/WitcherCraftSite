@@ -251,6 +251,40 @@
               }
             }
           ]
+        },
+        {
+          "id": "com.conquestreforged:conquest:3.0.2@jar",
+          "name": "Conquest Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60802913,
+            "url": "http://witchercraft.xyz/servers/Test2-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar",
+            "MD5": "4ad1a90bcbecae097b984a4ee3695929"
+          }
+        },
+        {
+          "id": "com.mamiyaotaru.voxelmap.forgemod:voxelmap:1.9.16@jar",
+          "name": "VoxelMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1754502,
+            "url": "http://witchercraft.xyz/servers/Test2-1.12.2/forgemods/required/forgemod_VoxelMap-1.9.16_for_1.12.2.jar",
+            "MD5": "6ce4fdb0cc45f1f1477880e6956a625a"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:1.9.1@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20467820,
+            "url": "http://witchercraft.xyz/servers/Test2-1.12.2/forgemods/optionaloff/iceandfire-1.9.1-1.12.2%20(2).jar",
+            "MD5": "58c453b85285c4e82cfc6fad35ffb537"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
         }
       ]
     }
