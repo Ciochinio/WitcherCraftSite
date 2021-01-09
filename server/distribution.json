@@ -8,23 +8,6 @@
   },
   "servers": [
     {
-      "id": "Test1-1.12.2",
-      "name": "Test1 (Minecraft 1.12.2)",
-      "description": "Test1 Running Minecraft 1.12.2",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": []
-    },
-    {
       "id": "Test2-1.12.2",
       "name": "Test2 (Minecraft 1.12.2)",
       "description": "Test2 Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
@@ -38,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
