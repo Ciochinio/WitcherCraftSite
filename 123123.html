@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Background images - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen backgrounds." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,backgrounds,full-screen" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<style>
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+	}
+	.slide{
+		background-size: cover;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(imgs/bg1.jpg);
+	}
+	#section1{
+		background-image: url(imgs/bg2.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section2{
+		background-image: url(imgs/bg3.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section3{
+		background-image: url(imgs/bg4.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section4{
+		background-image: url(imgs/bg5.png);
+		padding: 6% 0 0 0;
+	}	
+	#section5{
+		background-image: url(imgs/bg6.jpg);
+		padding: 6% 0 0 0;
+	}
+	#section6{
+		background-image: url(imgs/bg2.jpg);
+		padding: 6% 0 0 0;
+	}
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div class=text1> Niezapomniana przygoda.<br>
+				 Wiele możliwości.</div>
+		<div class="logo"><img src="imgs/wclogotxt.png" style="width: 150%;"/> </div>
+		<div class=text2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quo exercitationem eligendi possimus ratione fuga, quod dolores repellat vero inventore, vitae harum. Minima quia omnis repudiandae id reiciendis, ipsam sequi?</div>
+	</div>
+
+
+
+	<div class="section" id="section1"> HADFADFADAWD</div>
+	<div class="section" id="section2"><h1>fullPage.js</h1></div>
+	<div class="section" id="section3"><h1>fullPage.js</h1></div>
+	<div class="section" id="section4"><h1>Lovely images <br />for a lovely page</h1></div>
+	<div class="section" id="section5"><h1>One Image = One thousand words</h1></div>
+	<div class="section" id="section6"><h1>One Image = One thousand words</h1></div>
+</div>
+
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+		navigation:true,
+        navigationTooltips: ['Strona Główna', 'Otwarty Świat', 'Gameplay', 'Historia' ,"Mapa",'Launcher',"Media"],
+    });
+</script>
+</body>
+</html>
