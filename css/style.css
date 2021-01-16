@@ -1,0 +1,39 @@
+*{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */     
+  }
+.text1{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    text-transform: uppercase;
+    color:rgb(233, 220, 45);
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    
+}
+.logo {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 30px;
+    left: 120px;
+}
+.text2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 35px;
+    max-width:  50%;
+    left: 25%;
+    color:salmon;
+    font-weight: bold;
+}
+*{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */     
+  }
